@@ -1,0 +1,60 @@
+{
+  "name": "vuejs-app-for-web-api-tu-equipo-virtual",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "description": "VuejsAppForWebApiTuEquipoVirtual",
+  "author": {
+    "name": ""
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "bootstrap-vue": "^2.3.0",
+    "config": "^3.2.5",
+    "fs": "0.0.1-security",
+    "os": "^0.1.1",
+    "path": "^0.12.7",
+    "util": "^0.12.1",
+    "vue": "2.5.17",
+    "vue-axios": "^2.1.5",
+    "vue-router": "^3.1.5",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "3.0.4",
+    "@vue/cli-plugin-eslint": "3.0.4",
+    "@vue/cli-service": "3.0.4",
+    "core-js": "^3.6.4",
+    "eslint": "5.6.0",
+    "eslint-plugin-vue": "4.7.1",
+    "vue-template-compiler": "2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
