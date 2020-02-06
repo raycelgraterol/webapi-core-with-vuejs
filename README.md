@@ -1,3 +1,3 @@
 # webapi-core-with-vuejs
-This project was created for the company Tu Equipo Virtual
+This project was created create and update user in a data base using web api and jwt. 
 
